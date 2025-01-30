@@ -10,11 +10,6 @@ def multiply(x, y):
     return x * y
 
 
-def divide(x, y):
-    if y == 0:
-        return "Error! Division by zero."
-    else:
-        return x / y
 
 def main():
     print("Select operation:")
@@ -37,8 +32,6 @@ def main():
     elif choice == '3':
         print(f"The result of {num1} * {num2} is: {multiply(num1, num2)}")
 
-    elif choice == '4':
-        print(f"The result of {num1} / {num2} is: {divide(num1, num2)}")
 
     else:
         print("Invalid input! Please select a valid operation.")
